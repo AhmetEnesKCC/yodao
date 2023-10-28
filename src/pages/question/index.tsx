@@ -1,11 +1,8 @@
-import { TbTrashFilled } from "react-icons/tb";
-import { SlPencil } from "react-icons/sl";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect } from "react";
 import useUser from "@/hooks/useUser";
 import EthersService from "@/utils/ethers";
 import useLoading from "@/hooks/useLoading";
 import { useNavigate } from "react-router-dom";
-import useWallet from "@/hooks/useWallet";
 import toast from "react-hot-toast";
 
 const Page = () => {

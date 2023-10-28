@@ -32,14 +32,6 @@ const useWallet = () => {
     const address = await newAccount.getAddress();
     setUser({ address });
   };
-  const getuserBalance = async (address: string) => {
-    if (!window.ethereum) {
-      return toast("Lütfen Metamask'ı yükleyin");
-    }
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-
-    const balance = await provider.getBalance(address, "latest");
-  };
 
   return { connectwalletHandler, getSigner };
 };

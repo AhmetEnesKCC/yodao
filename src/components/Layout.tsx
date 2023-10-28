@@ -1,6 +1,6 @@
 import useLoading from "@/hooks/useLoading";
 import useUser, { subscribeUser } from "@/hooks/useUser";
-import { PropsWithChildren, useEffect, useState } from "react";
+import { PropsWithChildren, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { CircleLoader } from "react-spinners";
 

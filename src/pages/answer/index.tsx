@@ -79,7 +79,7 @@ const Page = () => {
           setTimeout(() => {
             toast("Yeniden yönlendiriliyorsunuz");
             setTimeout(() => {
-              navigate(0);
+              window.location.reload();
             }, 1000);
           }, 1000);
         });

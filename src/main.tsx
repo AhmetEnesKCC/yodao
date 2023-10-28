@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./style.css";
 import * as ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
