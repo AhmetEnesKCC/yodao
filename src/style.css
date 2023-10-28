@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .login-button {
+    @apply h-[60px] w-[80%]  rounded-b-md bg-maingreen text-white shadow-md;
+  }
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+*,
+*:after,
+*:before {
+  @apply box-border;
+}
