@@ -14,6 +14,7 @@ export default defineConfig({
       "@pages": path.resolve(__dirname, "./src/pages"),
     },
   },
+  base: "/yodao",
   plugins: [
     svgr(),
     react(),
