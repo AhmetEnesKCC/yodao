@@ -79,7 +79,7 @@ const Page = () => {
           setTimeout(() => {
             toast("Yeniden yönlendiriliyorsunuz");
             setTimeout(() => {
-              window.location.reload();
+              navigate("/");
             }, 1000);
           }, 1000);
         });
@@ -192,7 +192,7 @@ const Page = () => {
         <textarea
           className="border-2 p-2 outline-none"
           rows={3}
-          placeholder="gerekçe"
+          placeholder="Muhalefet Şerhi"
           style={{
             resize: "none",
             minHeight: "100px",
